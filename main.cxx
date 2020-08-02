@@ -14,7 +14,7 @@ int main()
 	string mBlock;
 	map<string, string> db;
 	map<string, string> mined;
-	cout << "Welcome to CxxCoin Core!" << endl;
+	cout << "Welcome to Coinx Core!" << endl;
 	cout << "\nEnter name..." << endl;
 	string user;
 	getline(cin, user);
@@ -116,7 +116,7 @@ int main()
 			if (action == "createBlock")
 			{
 				int i = 0;
-				while (i < 10){
+				while (i < 1000000){
 				block = createBlock();
 				string data = "0";
 				db[block] = data;
